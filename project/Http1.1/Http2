@@ -1,0 +1,35 @@
++ 1.Difference between;; Http1 . 1 vs Http2:
++
++ Http1
++ ->It he usert works on the textual format.
++ ->There is head of line blocks all the requests behind it until it doesn't get its all resoures.
++ ->It use requests resoures Inlining for use getting multiple pages.
++ ->It compresses data ;y itself.
++
++ Http2
++ ->It works on the binary protocal.
++ ->It allows multiplexing so one TCP connection is required for multipler requests.
++ ->It use PUSH frame by sever that collects all multiple pages.
++ ->It use HPCK for data compression.
++ ->Http2 is much faster and more reliable than Http1
++
++ ->2.object and its internal representation in Javascript:
++
++        object are important data types in Javascript.
++ object are Difference than primitive datatypes (i.e. nuber, string, bollean, etc.).
++ Primitive data types contain one value but objecs can hod many values in form of Key: value pair.
++ These keys can be variable or functions and are called properties and methods, respecively,
++ in the context of an object
++
++ Every obect has some property associated with them.
++ These values can be accessed using these preperties associal with them.
++
++ Var myCar .make =new object();
++
++ mycar .make = 'Suzuki';
++
++ mycar .model = 'Altros';
++
++ mycar .year = 1978;
++
++ mycar .wheels = 2;
